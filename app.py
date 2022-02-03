@@ -39,6 +39,7 @@
 import streamlit as st
 import spacy
 import time
+import en_core_web_lg
 
 @st.cache(allow_output_mutation=True) #hashing problems consult documentation
 def load_model(model):
